@@ -28,7 +28,7 @@ A macOS right-click menu utility that processes selected text using a local LLM 
 
 2. **Clone and install:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/process_text_utility.git
+   git clone https://github.com/dmarulli/process_text_utility.git
    cd process_text_utility
    ./install.sh
    ```
