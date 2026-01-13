@@ -23,7 +23,7 @@ A macOS right-click menu utility that processes selected text using a local LLM 
    ```bash
    brew install ollama
    brew services start ollama
-   ollama pull llama3.2
+   ollama pull gemma2:2b
    ```
 
 2. **Clone and install:**
@@ -77,10 +77,10 @@ macOS may ask for Automator/System Events permissions. Allow these in System Set
 
 Edit `~/Library/Scripts/ProcessText/process_text.sh` and change the model name:
 ```python
-"model": "llama3.2",  # Change to phi3:mini, gemma2:2b, etc.
+"model": "gemma2:2b",  # Change to llama3.2, phi3:mini, etc.
 ```
 
-Smaller models (phi3:mini, gemma2:2b) are faster but less capable.
+Larger models (llama3.2, llama3.1:8b) are more capable but slower.
 
 ## Uninstall
 
