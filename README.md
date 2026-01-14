@@ -2,6 +2,8 @@
 
 A macOS right-click menu utility that processes selected text using a local LLM (Ollama). Select text anywhere, describe how you want it transformed, and get the result in your clipboard.
 
+Built for analysts, data engineers, and anyone who frequently copies data from spreadsheets, DB viewers, or websites and needs to reformat it into lists, tuples, SQL queries, etc. Also works for any other simple LLM transformation you want to make without leaving your current context.
+
 ![Process Text Demo](https://img.shields.io/badge/macOS-Service-blue)
 
 ## Features
