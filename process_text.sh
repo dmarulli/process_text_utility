@@ -3,6 +3,10 @@
 # Process Text Utility
 # Sends selected text to Ollama with a custom prompt and copies result to clipboard
 
+# Ensure UTF-8 encoding throughout
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 # Read selected text from stdin
 SELECTED_TEXT=$(cat)
 
@@ -41,6 +45,9 @@ import urllib.request
 import urllib.error
 import sys
 import os
+
+# Ensure stdout uses UTF-8
+sys.stdout.reconfigure(encoding='utf-8')
 
 selected_text = os.environ.get('SELECTED_TEXT', '')
 prompt = os.environ.get('PROMPT', '')
