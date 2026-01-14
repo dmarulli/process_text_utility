@@ -4,6 +4,8 @@ A macOS right-click menu utility that processes selected text using a local LLM 
 
 Built for analysts, data engineers, and anyone who frequently copies data from spreadsheets, DB viewers, or websites and needs to reformat it into lists, tuples, SQL queries, etc. Also works for any other simple LLM transformation you want to make without leaving your current context.
 
+Currently set up for Mac + local LLM, but can be easily configured for other OSs and API-based LLMs for more intelligence/speed.
+
 ![Process Text Demo](https://img.shields.io/badge/macOS-Service-blue)
 
 ## Features
