@@ -46,6 +46,20 @@ A macOS right-click menu utility that processes selected text using a local LLM 
 3. Enter your instruction (e.g., "summarize this", "make it shorter")
 4. Result is copied to clipboard - just paste
 
+## Keyboard Shortcut
+
+You can assign a keyboard shortcut for faster access:
+
+1. Open **System Settings** → **Keyboard** → **Keyboard Shortcuts**
+2. Click **Services** in the sidebar
+3. Scroll to **Text** → **Process Text**
+4. Click "Add Shortcut" and press your desired keys
+
+Suggested shortcuts:
+- `⌃⌥P` (Ctrl+Option+P)
+- `⌃⌥T` (Ctrl+Option+T)
+- `⇧⌘P` (Shift+Cmd+P)
+
 ## Example Use Cases
 
 | Prompt | Input | Output |
