@@ -61,7 +61,7 @@ Here is the text to process:
 Respond with ONLY the processed text, no explanations or additional commentary."""
 
 payload = {
-    "model": "gemma2:2b",
+    "model": "llama3.2",
     "stream": False,
     "messages": [
         {
