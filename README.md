@@ -64,13 +64,12 @@ Suggested shortcuts:
 
 | Prompt | Input | Output |
 |--------|-------|--------|
-| "add quotes" | `hello world` | `"hello world"` |
-| "remove quotes" | `"hello world"` | `hello world` |
-| "remove excess whitespace" | `hello    world` | `hello world` |
-| "put in a tuple" | `foo`<br>`bar`<br>`baz` | `("foo", "bar", "baz")` |
+| "remove excess whitespace" | `hello    world,   how  are   you` | `hello world, how are you` |
+| "put in a list" | `foo`<br>`bar`<br>`baz` | `["foo", "bar", "baz"]` |
 | "fix grammar" | `their going to the store` | `they're going to the store` |
 | "make formal" | `hey can u help me out` | `Hello, could you please assist me?` |
 | "translate to Spanish" | `good morning` | `buenos días` |
+| "postgres query for my_table where filename matches these" | `report.csv`<br>`Sales Data.xlsx`<br>`notes.docx` | `SELECT * FROM my_table WHERE filename IN ('report.csv', 'Sales Data.xlsx', 'notes.docx');` |
 
 ## Troubleshooting
 
