@@ -66,10 +66,10 @@ Suggested shortcuts:
 |-------|--------|--------|
 | `hello    world,   how  are   you` | "remove excess whitespace" | `hello world, how are you` |
 | `foo`<br>`bar`<br>`baz` | "put in a list" | `["foo", "bar", "baz"]` |
+| `report.csv`<br>`Sales Data.xlsx`<br>`notes.docx` | "postgres query for my_table where filename matches these" | `SELECT * FROM my_table WHERE filename IN ('report.csv', 'Sales Data.xlsx', 'notes.docx');` |
 | `their going to the store` | "fix grammar" | `they're going to the store` |
 | `hey can u help me out` | "make formal" | `Hello, could you please assist me?` |
 | `good morning` | "translate to Spanish" | `buenos días` |
-| `report.csv`<br>`Sales Data.xlsx`<br>`notes.docx` | "postgres query for my_table where filename matches these" | `SELECT * FROM my_table WHERE filename IN ('report.csv', 'Sales Data.xlsx', 'notes.docx');` |
 
 ## Troubleshooting
 
