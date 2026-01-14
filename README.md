@@ -62,14 +62,14 @@ Suggested shortcuts:
 
 ## Example Use Cases
 
-| Prompt | Input | Output |
-|--------|-------|--------|
-| "remove excess whitespace" | `hello    world,   how  are   you` | `hello world, how are you` |
-| "put in a list" | `foo`<br>`bar`<br>`baz` | `["foo", "bar", "baz"]` |
-| "fix grammar" | `their going to the store` | `they're going to the store` |
-| "make formal" | `hey can u help me out` | `Hello, could you please assist me?` |
-| "translate to Spanish" | `good morning` | `buenos días` |
-| "postgres query for my_table where filename matches these" | `report.csv`<br>`Sales Data.xlsx`<br>`notes.docx` | `SELECT * FROM my_table WHERE filename IN ('report.csv', 'Sales Data.xlsx', 'notes.docx');` |
+| Input | Prompt | Output |
+|-------|--------|--------|
+| `hello    world,   how  are   you` | "remove excess whitespace" | `hello world, how are you` |
+| `foo`<br>`bar`<br>`baz` | "put in a list" | `["foo", "bar", "baz"]` |
+| `their going to the store` | "fix grammar" | `they're going to the store` |
+| `hey can u help me out` | "make formal" | `Hello, could you please assist me?` |
+| `good morning` | "translate to Spanish" | `buenos días` |
+| `report.csv`<br>`Sales Data.xlsx`<br>`notes.docx` | "postgres query for my_table where filename matches these" | `SELECT * FROM my_table WHERE filename IN ('report.csv', 'Sales Data.xlsx', 'notes.docx');` |
 
 ## Troubleshooting
 
